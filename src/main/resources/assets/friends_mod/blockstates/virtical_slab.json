@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "friends_mod:block/virtical_slab"
+    },
+    "facing=east": {
+      "model": "friends_mod:block/virtical_slab",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "friends_mod:block/virtical_slab",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "friends_mod:block/virtical_slab",
+      "y": 270
+    }
+  }
+}

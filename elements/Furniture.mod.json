@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Furniture",
+    "icon": {
+      "value": "CUSTOM:Table"
+    },
+    "showSearch": true
+  }
+}

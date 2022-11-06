@@ -1,0 +1,20 @@
+{
+  "imagine_dragons_enemy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "friends_mod:imagine_dragons_x_j.i.d_-_enemy_from_the_series_arcane_league_of_legends",
+        "stream": true
+      }
+    ]
+  },
+  "gunshot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "friends_mod:revolver_gun_shot_1_-_quicksounds.com",
+        "stream": false
+      }
+    ]
+  }
+}

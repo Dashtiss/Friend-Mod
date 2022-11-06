@@ -1,0 +1,7 @@
+{
+  "parent": "friends_mod:custom/gun",
+  "textures": {
+    "0": "friends_mod:blocks/gun",
+    "particle": "friends_mod:items/guntemplate"
+  }
+}

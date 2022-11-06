@@ -1,0 +1,9 @@
+{
+  "parent": "friends_mod:custom/virtical_slab",
+  "textures": {
+    "all": "friends_mod:blocks/oak_planks",
+    "particle": "friends_mod:blocks/oak_planks",
+    "0": "friends_mod:blocks/oak_planks"
+  },
+  "render_type": "cutout"
+}

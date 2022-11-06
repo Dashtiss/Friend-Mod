@@ -1,0 +1,9 @@
+{
+  "parent": "friends_mod:custom/table",
+  "textures": {
+    "all": "friends_mod:blocks/texture",
+    "particle": "friends_mod:blocks/texture",
+    "0": "friends_mod:blocks/texture"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "friends_mod:block/table"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+
+[[mods]]
+modId="friends_mod"
+version="1.2.5"
+displayName="Friends mod"
+credits="you can disribute this mod but not for money"
+displayURL="https://mcreator.net"
+authors="brand, MCreator"
+description='''
+A mod that im making for my friends
+'''
+
+[[dependencies.friends_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

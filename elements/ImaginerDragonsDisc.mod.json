@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Imaginer Dragons Disc",
+    "texture": "imagine_dragons_disc",
+    "description": "This is Imagine Dragons song called Enemy",
+    "creativeTab": {
+      "value": "CUSTOM:Furniture"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:imagine_dragons_enemy"
+    },
+    "lengthInTicks": 0,
+    "analogOutput": 0
+  }
+}
