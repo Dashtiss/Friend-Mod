@@ -14,7 +14,7 @@ public class FriendsModModTabs {
 		TAB_FURNITURE = new CreativeModeTab("tabfurniture") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(FriendsModModBlocks.TABLE.get());
+				return new ItemStack(FriendsModModItems.MINIGUN.get());
 			}
 
 			@Override

@@ -8,10 +8,12 @@
   "subtitles.gunshot": "",
   "item.friends_mod.military_armor_helmet": "Military Armor Helmet",
   "item.friends_mod.bullet": "Bullet",
-  "itemGroup.tabfurniture": "Furniture",
+  "itemGroup.tabfurniture": "Mod",
   "item.friends_mod.gun": "Pistol",
   "item.friends_mod.imaginer_dragons_disc.desc": "This is Imagine Dragons song called Enemy",
+  "item.friends_mod.chair_spawn_egg": "Chair Spawn Egg",
   "item.friends_mod.imaginer_dragons_disc": "Imaginer Dragons Disc",
+  "entity.friends_mod.chair": "Chair",
   "item.friends_mod.military_armor_leggings": "Military Armor Leggings",
   "item.friends_mod.reinforced_iron": "Reinforced Iron"
 }

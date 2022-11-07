@@ -2,9 +2,9 @@
   "_fv": 34,
   "_type": "tab",
   "definition": {
-    "name": "Furniture",
+    "name": "Mod",
     "icon": {
-      "value": "CUSTOM:Table"
+      "value": "CUSTOM:Minigun"
     },
     "showSearch": true
   }

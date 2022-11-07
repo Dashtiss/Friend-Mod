@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.friendsmod.entity.MinigunEntity;
 import net.mcreator.friendsmod.entity.GunEntity;
+import net.mcreator.friendsmod.entity.ChairEntity;
 import net.mcreator.friendsmod.FriendsModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -29,6 +30,9 @@ public class FriendsModModEntities {
 	public static final RegistryObject<EntityType<MinigunEntity>> MINIGUN = register("projectile_minigun",
 			EntityType.Builder.<MinigunEntity>of(MinigunEntity::new, MobCategory.MISC).setCustomClientFactory(MinigunEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ChairEntity>> CHAIR = register("chair",
+			EntityType.Builder.<ChairEntity>of(ChairEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(0)
+					.setUpdateInterval(3).setCustomClientFactory(ChairEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -37,10 +41,12 @@ public class FriendsModModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			ChairEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(CHAIR.get(), ChairEntity.createAttributes().build());
 	}
 }
