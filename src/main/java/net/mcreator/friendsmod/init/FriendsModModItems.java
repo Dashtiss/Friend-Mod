@@ -7,7 +7,6 @@ package net.mcreator.friendsmod.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -37,8 +36,6 @@ public class FriendsModModItems {
 	public static final RegistryObject<Item> MILITARY_ARMOR_LEGGINGS = REGISTRY.register("military_armor_leggings",
 			() -> new MilitaryArmorItem.Leggings());
 	public static final RegistryObject<Item> MILITARY_ARMOR_BOOTS = REGISTRY.register("military_armor_boots", () -> new MilitaryArmorItem.Boots());
-	public static final RegistryObject<Item> CHAIR = REGISTRY.register("chair_spawn_egg", () -> new ForgeSpawnEggItem(FriendsModModEntities.CHAIR,
-			-16724788, -10066330, new Item.Properties().tab(FriendsModModTabs.TAB_FURNITURE)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

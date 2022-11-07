@@ -1,6 +1,7 @@
 {
   "block.friends_mod.virtical_slab": "Oak Slab Virtical",
   "block.friends_mod.table": "Table",
+  "entity.friends_mod.bluedragon": "Blue Dragon",
   "subtitles.imagine_dragons_enemy": "",
   "item.friends_mod.military_armor_boots": "Military Armor Boots",
   "item.friends_mod.military_armor_chestplate": "Military Armor Body",
@@ -11,9 +12,8 @@
   "itemGroup.tabfurniture": "Mod",
   "item.friends_mod.gun": "Pistol",
   "item.friends_mod.imaginer_dragons_disc.desc": "This is Imagine Dragons song called Enemy",
-  "item.friends_mod.chair_spawn_egg": "Chair Spawn Egg",
   "item.friends_mod.imaginer_dragons_disc": "Imaginer Dragons Disc",
-  "entity.friends_mod.chair": "Chair",
   "item.friends_mod.military_armor_leggings": "Military Armor Leggings",
+  "item.friends_mod.bluedragon_spawn_egg": "Blue Dragon Spawn Egg",
   "item.friends_mod.reinforced_iron": "Reinforced Iron"
 }

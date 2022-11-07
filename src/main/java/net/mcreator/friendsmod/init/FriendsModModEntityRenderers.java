@@ -11,7 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
-import net.mcreator.friendsmod.client.renderer.ChairRenderer;
+import net.mcreator.friendsmod.client.renderer.BluedragonRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FriendsModModEntityRenderers {
@@ -19,6 +19,7 @@ public class FriendsModModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(FriendsModModEntities.GUN.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(FriendsModModEntities.MINIGUN.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(FriendsModModEntities.CHAIR.get(), ChairRenderer::new);
+		event.registerEntityRenderer(FriendsModModEntities.BLUEDRAGON.get(), BluedragonRenderer::new);
+		event.registerEntityRenderer(FriendsModModEntities.BLUEDRAGON_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

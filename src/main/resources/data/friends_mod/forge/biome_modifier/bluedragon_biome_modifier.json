@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "the_end",
+  "spawners": {
+    "type": "friends_mod:bluedragon",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
