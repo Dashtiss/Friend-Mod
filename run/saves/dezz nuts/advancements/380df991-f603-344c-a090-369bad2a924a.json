@@ -1,55 +1,85 @@
 {
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
-      "has_obsidian": "2022-11-06 21:28:51 -0600"
+      "has_obsidian": "2022-11-07 20:46:05 -0600"
     },
     "done": true
   },
   "minecraft:story/lava_bucket": {
     "criteria": {
-      "lava_bucket": "2022-11-06 21:30:16 -0600"
+      "lava_bucket": "2022-11-07 20:46:05 -0600"
     },
     "done": true
   },
-  "minecraft:nether/root": {
+  "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
-      "entered_nether": "2022-11-06 21:29:03 -0600"
+      "has_boat": "2022-11-07 20:46:05 -0600"
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
+  "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "obsidian": "2022-11-06 21:28:51 -0600"
+      "has_lots_of_items": "2022-11-07 20:46:44 -0600"
     },
     "done": true
   },
-  "minecraft:story/enter_the_nether": {
+  "minecraft:recipes/transportation/jungle_chest_boat": {
     "criteria": {
-      "entered_nether": "2022-11-06 21:29:03 -0600"
+      "has_boat": "2022-11-07 20:46:05 -0600"
     },
     "done": true
   },
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
-      "has_obsidian": "2022-11-06 21:28:51 -0600"
+      "has_obsidian": "2022-11-07 20:46:05 -0600"
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
+  "minecraft:story/root": {
     "criteria": {
-      "minecraft:crimson_forest": "2022-11-06 21:29:56 -0600",
-      "minecraft:nether_wastes": "2022-11-06 21:29:34 -0600",
-      "minecraft:basalt_deltas": "2022-11-06 21:29:20 -0600",
-      "minecraft:warped_forest": "2022-11-06 21:29:03 -0600"
+      "crafting_table": "2022-11-07 20:45:58 -0600"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-07 20:46:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-07 20:46:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-07 20:46:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-07 20:46:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2022-11-07 20:46:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2022-11-07 20:46:05 -0600"
+    },
+    "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:sunflower_plains": "2022-11-06 21:28:36 -0600",
-      "minecraft:river": "2022-11-06 21:28:22 -0600",
-      "minecraft:ocean": "2022-11-06 21:27:05 -0600",
-      "minecraft:plains": "2022-11-06 21:26:58 -0600"
+      "minecraft:frozen_ocean": "2022-11-07 20:45:46 -0600"
     },
     "done": false
   },

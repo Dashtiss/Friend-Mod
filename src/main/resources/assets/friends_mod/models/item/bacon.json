@@ -1,0 +1,7 @@
+{
+  "parent": "friends_mod:custom/bacon",
+  "textures": {
+    "0": "friends_mod:blocks/bacon",
+    "particle": "friends_mod:items/bacon"
+  }
+}

@@ -19,6 +19,7 @@ import net.mcreator.friendsmod.item.MilitaryArmorItem;
 import net.mcreator.friendsmod.item.ImaginerDragonsDiscItem;
 import net.mcreator.friendsmod.item.GunItem;
 import net.mcreator.friendsmod.item.BulletItem;
+import net.mcreator.friendsmod.item.BaconItem;
 import net.mcreator.friendsmod.FriendsModMod;
 
 public class FriendsModModItems {
@@ -36,6 +37,7 @@ public class FriendsModModItems {
 	public static final RegistryObject<Item> MILITARY_ARMOR_LEGGINGS = REGISTRY.register("military_armor_leggings",
 			() -> new MilitaryArmorItem.Leggings());
 	public static final RegistryObject<Item> MILITARY_ARMOR_BOOTS = REGISTRY.register("military_armor_boots", () -> new MilitaryArmorItem.Boots());
+	public static final RegistryObject<Item> BACON = REGISTRY.register("bacon", () -> new BaconItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
